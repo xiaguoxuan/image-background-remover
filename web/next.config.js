@@ -6,13 +6,13 @@ const nextConfig = {
   //},
   
   // 核心：允许公网 IP 访问开发资源 (Next.js 15/16)
-  allowedDevOrigins: ['43.156.161.212', '43.156.161.212:3001'],
+  //allowedDevOrigins: ['43.156.161.212', '43.156.161.212:3001'],
   
-  experimental: {
-    serverActions: {
-      allowedOrigins: ['43.156.161.212:3001', 'localhost:3001'],
-    },
-  },
+  //experimental: {
+  //  serverActions: {
+  //    allowedOrigins: ['43.156.161.212:3001', 'localhost:3001'],
+  //  },
+  //},
 
   async headers() {
     return [
